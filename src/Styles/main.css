@@ -17,7 +17,7 @@
 header {
     display: flex;
     align-items: center;
-    justify-self: space-between;
+    justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
     background-color: var(--mainColor);
@@ -70,5 +70,15 @@ header .nav-btn {
 
     header .responsive_nav {
         transform: none;
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
     }
 }
